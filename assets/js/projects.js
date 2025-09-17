@@ -117,7 +117,7 @@ const projects = [
     type: "Mobile",
     screen:
       "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754517289/portfolio/f3fhigrzovg4fxr2a5b9.png",
-    cover: "../public/images/carApp.png",
+    cover: "../images/carApp.png",
     details: {
       link: "https://belhambeauty.shop/",
       description:
@@ -130,7 +130,7 @@ const projects = [
     type: "Mobile",
     screen:
       "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754517289/portfolio/f3fhigrzovg4fxr2a5b9.png",
-    cover: "../public/images/goTeach.png",
+    cover: "../images/goTeach.png",
     details: {
       link: "https://belhambeauty.shop/",
       description:
@@ -143,7 +143,7 @@ const projects = [
     type: "Mobile",
     screen:
       "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754517289/portfolio/f3fhigrzovg4fxr2a5b9.png",
-    cover: "../public/images/goTeach2.png",
+    cover: "../images/goTeach2.png",
     details: {
       link: "https://belhambeauty.shop/",
       description:
