@@ -278,7 +278,7 @@
                         <div class="fit-img h-350px border-radius-15px o-hidden">
                             <img src="${project.cover}" alt="${project.name}">
                         </div>
-                        <a href="/details/project/${project.key}" class="icon" title="${project.name}">
+                        <a href="details_project.html?key=${project.key}" class="icon" title="${project.name}">
                             <span>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.5 28.5">
                                     <path d="M29.25.75V22.09H26.89V4.77L2.4,29.25.75,27.52,25.16,3.11H7.84V.75Z" transform="translate(-0.75 -0.75)" />
@@ -304,7 +304,7 @@
         }
 
         function redirectToProject(projectKey) {
-            window.location.href = `/details/project/${projectKey}`;
+            window.location.href = `details_project.html?key=${projectKey}`;
         }
         // Charger les projets au chargement de la page
         document.addEventListener('DOMContentLoaded', loadProjects);

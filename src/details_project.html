@@ -316,9 +316,8 @@
     <script src="../assets/js/scripts.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            // Récupérer l'URL path, ex: /details/3
-            const pathParts = window.location.pathname.split("/");
-            const key = parseInt(pathParts[pathParts.length - 1]);
+            const params = new URLSearchParams(window.location.search);
+            const key = parseInt(params.get("key"));
 
             // Récupérer le projet depuis le tableau local `projects`
             const project = projects.find(p => p.key === key);
@@ -358,7 +357,6 @@
                 console.error("Element #project-description introuvable !");
             }
         });
-
 
     </script>
 </body>
