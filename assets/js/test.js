@@ -5,12 +5,10 @@ const projects = [
     type: "Mobile",
     screen:
       "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754335258/portfolio/ozs5k2bg90slw7ahapf2.jpg",
-    screen2: "../images/kdg_1.png", // celui-ci existait déjà
-
     cover:
       "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754512050/portfolio/hkbdzsnkmsrfhvxucsnr.png",
     details: {
-      link: "https://kondjigbale.com/tg/download",
+      link: "app_link",
       description:
         "KONDJIGBALẼ est une solution de santé numérique , mettant l'accent sur le bien-être des patients. Notre plateforme offre aux médecins les outils nécessaires pour prodiguer des soins exceptionnels, poser des diagnostics précis et intervenir rapidement. Elle permet également aux patients d'accéder facilement à leurs informations médicales, de recevoir des soins personnalisés et de bénéficier d'un suivi ...",
     },
@@ -21,12 +19,10 @@ const projects = [
     type: "Site web",
     screen:
       "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754513613/portfolio/fnby4gcbvnvkgavcxbs9.png",
-    screen2:
-      "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754513613/portfolio/fnby4gcbvnvkgavcxbs9.png",
     cover:
       "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754510878/portfolio/i6yx9cnwtmcrxbz4eek2.png",
     details: {
-      link: "http://ethica-advisory.com/",
+      link: "app_link",
       description:
         "ETHICA ADVISORY est un cabinet de conseil spécialisé dans l’accompagnement des entreprises pour intégrer des pratiques durables, innovantes et éthiques dans leur gestion quotidienne.",
     },
@@ -37,12 +33,10 @@ const projects = [
     type: "Mobile",
     screen:
       "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754335719/portfolio/l7pcsloadsbprxylumxl.jpg",
-    screen2:
-      "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754335719/portfolio/l7pcsloadsbprxylumxl.jpg",
     cover:
       "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754512304/portfolio/erk32vxsvc5kl8633xrh.png",
     details: {
-      link: "https://prestup.app",
+      link: "app_link",
       description:
         "PrestUp est une application mobile de mise en relation des prestataires de toutes catégories confondues aux potentiels demandeurs de prestations. Notre plateforme offre aux prestataires la possibilité de promouvoir leurs services et d'attirer de nouveaux clients, tout en offrant aux clients un moyen simple, sûr et efficace de trouver des prestataires qualifiés pour leurs projets.",
     },
@@ -51,12 +45,12 @@ const projects = [
     key: 4,
     name: "Kedo Travel",
     type: "mobile",
-    screen: "../images/kedo_1.png",
-    screen2: "../images/kedo_2.png",
+    screen:
+      "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754335719/portfolio/l7pcsloadsbprxylumxl.jpg",
     cover:
       "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754512304/portfolio/erk32vxsvc5kl8633xrh.png",
     details: {
-      link: "https://kedo.mdkrlabs.dev/",
+      link: "app_link",
       description:
         "Kedo Travel est une plateforme numérique conçue pour faciliter la découverte, la réservation et la gestion d'expériences touristiques. Elle connecte les voyageurs à une variété d’offres locales — circuits, hébergements, guides touristiques, transports et activités culturelles — tout en offrant aux prestataires une interface simple pour promouvoir et gérer leurs services.",
     },
@@ -65,12 +59,12 @@ const projects = [
     key: 5,
     name: "Cygne client",
     type: "Mobile",
-    screen: "../images/cygne_1.jpeg",
-    screen2: "../images/cygne_2.jpeg",
+    screen:
+      "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754335719/portfolio/l7pcsloadsbprxylumxl.jpg",
     cover:
       "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754516217/portfolio/hdaiiuefr1erewtdiazo.png",
     details: {
-      link: "",
+      link: "app_link",
       description:
         "Cygne Client est une application permettant d’effectuer des transactions financières de manière simple et sécurisée.",
     },
@@ -79,8 +73,8 @@ const projects = [
     key: 6,
     name: "Cygne agent",
     type: "Mobile",
-    screen: "../images/cygne_A_1.jpeg",
-    screen2: "../images/cygne_A_2.jpeg",
+    screen:
+      "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754335719/portfolio/l7pcsloadsbprxylumxl.jpg",
     cover:
       "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754516265/portfolio/u59dvtgmfkirvaxxqmt8.png",
     details: {
@@ -93,12 +87,12 @@ const projects = [
     key: 7,
     name: "Chocoland",
     type: "Mobile",
-    screen: "../images/choco_1.jpeg",
-    screen2: "../images/choco_2.jpeg",
+    screen:
+      "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754335719/portfolio/l7pcsloadsbprxylumxl.jpg",
     cover:
       "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754516299/portfolio/ukchapde8st2kisbp179.png",
     details: {
-      link: "",
+      link: "app_link",
       description:
         "Chocoland est une application mobile permettant aux utilisateurs de découvrir et acheter des produits agricoles, principalement du cacao et ses dérivés (grains, chocolat artisanal, produits dérivés). Elle relie directement les producteurs locaux aux consommateurs, offrant une expérience fluide, sécurisée et transparente.",
     },
@@ -107,8 +101,8 @@ const projects = [
     key: 8,
     name: "Belham Beauty",
     type: "Site web",
-    screen: "../images/belham_1.png",
-    screen2: "../images/belham_2.png",
+    screen:
+      "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754517289/portfolio/f3fhigrzovg4fxr2a5b9.png",
     cover:
       "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754517631/portfolio/movcrqby0wxrlujjygbc.png",
     details: {
@@ -121,11 +115,11 @@ const projects = [
     key: 9,
     name: "Car App",
     type: "Mobile",
-    screen: "../images/carApp_1.jpeg",
-    screen2: "../images/carApp_2.jpeg",
+    screen:
+      "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754517289/portfolio/f3fhigrzovg4fxr2a5b9.png",
     cover: "../images/carApp.png",
     details: {
-      link: "",
+      link: "https://belhambeauty.shop/",
       description:
         "CarApp est une application conçue pour aider les utilisateurs à gérer efficacement leurs véhicules. Elle permet de planifier les entretiens (vidanges, contrôles techniques, etc.), de recevoir des rappels importants, de suivre l’historique des interventions, et d’avoir une vue d’ensemble sur l’état et la gestion de sa flotte ou de ses véhicules personnels.",
     },
@@ -134,11 +128,11 @@ const projects = [
     key: 10,
     name: "GoTeach",
     type: "Mobile",
-    screen: "../images/goTeach_1.jpeg",
-    screen2: "../images/goTeach_2.jpeg",
+    screen:
+      "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754517289/portfolio/f3fhigrzovg4fxr2a5b9.png",
     cover: "../images/goTeach.png",
     details: {
-      link: "",
+      link: "https://belhambeauty.shop/",
       description:
         "GoTeach est une application de réservation dédiée au soutien scolaire. Elle permet aux parents de réserver facilement des séances de répétition ou d’accompagnement éducatif pour leurs enfants, en fonction de leur niveau, de leurs matières et de leurs disponibilités. L’objectif : connecter familles et enseignants qualifiés pour un suivi personnalisé et flexible.",
     },
@@ -147,11 +141,11 @@ const projects = [
     key: 11,
     name: "GoTeach Pro",
     type: "Mobile",
-    screen: "../images/goTeach_p_1.jpeg",
-    screen2: "../images/goTeach_p_2.jpeg",
+    screen:
+      "https://res.cloudinary.com/dr8wumlkr/image/upload/v1754517289/portfolio/f3fhigrzovg4fxr2a5b9.png",
     cover: "../images/goTeach2.png",
     details: {
-      link: "",
+      link: "https://belhambeauty.shop/",
       description:
         "GoTeach Pro est l’application dédiée aux répétiteurs inscrits sur la plateforme GoTeach.Elle leur permet de gérer leurs disponibilités, consulter les réservations des parents, suivre les séances effectuées, et interagir avec les élèves de manière professionnelle et structurée. GoTeach Pro facilite l’organisation, optimise le planning et permet aux enseignants de se concentrer sur l’essentiel : transmettre efficacement leur savoir",
     },
@@ -161,8 +155,10 @@ const projects = [
     key: 12,
     name: "LaNuitDuDroit Togo",
     type: "Site web",
-    screen: "../images/ndd_1.png",
-    screen2: "../images/ndd_2.png", // celui-ci existait déjà
+    screen:
+      "../images/ndd_1.png",
+    screen2:
+      "../images/ndd_2.png",
     cover: "../images/carApp.png",
     details: {
       link: "https://lanuitdudroit.tg/",
