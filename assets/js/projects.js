@@ -163,7 +163,7 @@ const projects = [
     type: "Site web",
     screen: "../images/ndd_1.png",
     screen2: "../images/ndd_2.png", // celui-ci existait déjà
-    cover: "../images/carApp.png",
+    cover: "../images/ndd_logo.png",
     details: {
       link: "https://lanuitdudroit.tg/",
       description: "La Nuit du Droit est un événement annuel organisé en fin d’année par l’Association Togolaise pour la Promotion du Droit ( ATPD), conçu comme un cadre unique de rencontre, de réseautage, de collaboration et de partage d’expériences autour des enjeux juridiques et socio-économiques ayant marqué l’année en Afrique de l’Ouest et, plus largement, en Afrique. Cet événement offre aux jeunes, aux professionnels du droit et à divers corps de métiers l’opportunité d’explorer les innovations juridiques et de discuter des défis contemporains dans des domaines cruciaux tels que le financement, l’énergie et le climat des affaires. En favorisant l’échange entre générations et secteurs, la Nuit du Droit contribue à l’enrichissement des compétences, au renforcement des réseaux professionnels et à la création de synergies qui peuvent avoir un impact positif durable sur le développement socio-économique de la région."
